@@ -1,37 +1,43 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Package Version="4">
     <PathDelim Value="\"/>
-    <Name Value="Objets100cLib_3_0_TLBP"/>
+    <Name Value="Objets100cLib_TLBP"/>
     <CompilerOptions>
       <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
       <Other>
-        <CompilerMessages>
-          <UseMsgFile Value="True"/>
-        </CompilerMessages>
         <CustomOptions Value="-Ur"/>
-        <CompilerPath Value="$(CompPath)"/>
       </Other>
     </CompilerOptions>
     <Description Value="Objets100cLib_3_0_TLB package"/>
-    <Version Minor="1"/>
+    <Version Major="3" Build="1"/>
     <Files Count="2">
       <Item1>
-        <Filename Value="Objets100cLib_3_0_TLB.pas"/>
-        <UnitName Value="Objets100cLib_3_0_TLB"/>
+        <Filename Value="objets100clib_tlb.pas"/>
+        <UnitName Value="objets100clib_tlb"/>
       </Item1>
       <Item2>
-        <Filename Value="Objets100cLib_3_0_TLBPreg.pas"/>
+        <Filename Value="objets100clib_tlbpreg.pas"/>
         <HasRegisterProc Value="True"/>
         <AddToUsesPkgSection Value="False"/>
-        <UnitName Value="Objets100cLib_3_0_TLBPreg"/>
+        <UnitName Value="objets100clib_tlbpreg"/>
       </Item2>
     </Files>
-    <Type Value="RunAndDesignTime"/>
     <RequiredPkgs Count="1">
       <Item1>
         <PackageName Value="LazActiveX"/>

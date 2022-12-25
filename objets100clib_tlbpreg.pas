@@ -1,9 +1,9 @@
-unit Objets100cLib_3_0_TLBPreg;
+unit objets100clib_tlbpreg;
 
 interface
 
 uses
-  Objets100cLib_3_0_TLB;
+  Objets100cLib_TLB;
 
 procedure Register;
 

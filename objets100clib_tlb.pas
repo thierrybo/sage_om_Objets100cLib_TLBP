@@ -1,6 +1,6 @@
-Unit Objets100cLib_3_0_TLB;
+Unit objets100clib_tlb;
 
-//  Imported Objets100cLib on 29/06/2018 21:40:05 from C:\PROGRA~2\COMMON~1\Sage\OBJETS~1\OBJETS~1.DLL
+//  Imported Objets100cLib on 06/07/2021 18:47:48 from C:\Windows\WinSxS\x86_com.sage.cobj.100c_77d7af533b8e0189_3.0.0.1_none_634baca52c26e0b1\objets100c.dll
 
 {$mode delphi}{$H+}
 
